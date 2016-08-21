@@ -14,7 +14,7 @@
 			scope:{
 				username:'@'
 			},
-			templateUrl:'templates/git-profile.html',
+			templateUrl:'templates/git-profile.html', 
 			controller:function getData ($scope){
 				$http.get(directiveConfig.githubAPI + $scope.username)
 					.then(function success(response){
