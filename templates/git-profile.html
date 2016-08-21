@@ -1,0 +1,12 @@
+
+<div class="git-card">
+	<!-- Will show when the API call is successful-->
+	<div ng-if=success class="user-info">
+		<img ng-src="{{avatar}}" src="">
+		<h2>{{name}}</h2>
+		<p>Followers : {{followers}}</p>
+		<p>Following : {{following}}</p>
+	</div>
+	<!-- To handle the error message -->
+	<p ng-if=!success ng-bind="message" class="err-msg"></p>
+</div>

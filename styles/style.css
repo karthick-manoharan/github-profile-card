@@ -1,0 +1,23 @@
+body{
+	font-family: 'Open Sans';
+	box-sizing: border-box;
+}
+.git-card{
+	width: 300px;
+	height: auto;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	background: #f9f7f9;
+	margin: 20vh auto;
+	text-align: center;
+}
+.git-card img{
+	width:100px;
+	height:100px;
+	border-radius: 50px;
+	margin-top:50px;
+	content: '';
+}
+.user-info{
+	padding: 0 30px 30px 30px;
+}
