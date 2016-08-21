@@ -3,7 +3,7 @@
 	angular
 		.module('apttus',[])
 		.constant('directiveConfig',{
-			"githubAPI":"api.github.com/users/"
+			"githubAPI":"https://api.github.com/users/"
 		})
 		.directive('gitProfile',['$http','directiveConfig',showProfile]);
 
